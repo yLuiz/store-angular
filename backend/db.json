@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 8,
+      "name": "RTX 2060 6GB",
+      "price": 2090.99
+    },
+    {
+      "name": "Mouse Redragon Cobra",
+      "price": 134.99,
+      "id": 10
+    },
+    {
+      "name": "Ryzen 5 3600",
+      "price": 1260,
+      "id": 11
+    },
+    {
+      "name": "Mouse Pad Hyperx",
+      "price": 60,
+      "id": 12
+    },
+    {
+      "name": "GTX 1650 4GB",
+      "price": 1499.99,
+      "id": 13
+    },
+    {
+      "name": "Monitor 24' ACER",
+      "price": 969.95,
+      "id": 14
+    },
+    {
+      "name": "Caderno 12 matérias",
+      "price": 29.9,
+      "id": 15
+    },
+    {
+      "name": "Tênis Escolar",
+      "price": 89.9,
+      "id": 16
+    },
+    {
+      "name": "GTX 1650 4GB",
+      "price": 1489.99,
+      "id": 17
+    },
+    {
+      "name": "Garrafa Térmica",
+      "price": 35.98,
+      "id": 18
+    }
+  ]
+}

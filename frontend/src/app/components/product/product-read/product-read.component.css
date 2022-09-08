@@ -1,0 +1,36 @@
+table {
+    width: 100%;
+}
+
+.edit {
+    margin-left: -10px;
+    color: #0080ff;
+}
+
+.delete {
+    margin-left: 10px;
+    cursor: pointer;
+    color: #ff4343;
+}
+
+.delete:hover {
+    filter: drop-shadow(0 0 0.5rem #ff4343);
+}
+
+.edit:hover {
+    filter: drop-shadow(0 0 .5rem #0080ff);
+}
+
+.product-delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}

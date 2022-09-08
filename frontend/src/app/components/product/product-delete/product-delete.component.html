@@ -1,0 +1,12 @@
+<div class="delete-container" [@divState]="myState">
+    <p>Deseja deletar o item <strong>{{ productName }}</strong>?</p>
+    
+    <div class="action">
+        <button mat-button (click)="deleteProduct()">
+            Deletar
+        </button>
+        <a mat-button (click)="activeDeleteBox()">
+            Cancelar
+        </a>
+    </div>
+</div>

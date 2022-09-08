@@ -1,0 +1,23 @@
+<mat-card class="home mat-elevation-z3">
+    <mat-card-title class="title">
+        Bem Vindo!
+    </mat-card-title>
+    <mat-card-subtitle class="subtitle">
+        Sistema para exemplificar a construção de um cadastro em Angular
+    </mat-card-subtitle>
+</mat-card>
+
+<h2>Confira nossos produtos</h2>
+<section class="products-collection">
+    <mat-card *ngFor="let product of products" class="mat-elevation-z3 product-card">
+        <div class="image-container">
+            
+        </div>
+        <div>
+            <h3>{{ product.name }}</h3>
+            <p>R${{ product.price }}</p>
+        </div>
+
+        <a routerLink="/" class="btn-details">Detalhes</a>
+    </mat-card>
+</section>

@@ -1,0 +1,39 @@
+.delete-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.4);
+    background-color: #FFF;
+    padding: 50px 20px;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.action > button {
+    color: #ff4343;
+    border: 1px solid #ff4343;
+    transition: all ease-in-out .1s;
+}
+
+.action > button:hover {
+    color: #FFF;
+    background-color: #ff4343;
+}
+
+.action {
+    display: flex;
+    gap: 8px;
+}
+
+.action a {
+    color: #0080ff;
+    border: 1px solid #0080ff;
+    transition: all ease-in-out .1s;
+}
+
+.action a:hover {
+    color: #FFF;
+    background-color: #0080ff;
+}
